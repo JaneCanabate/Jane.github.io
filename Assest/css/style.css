@@ -1,0 +1,257 @@
+:root {
+    --bg1: #2D2A2B;
+    --bg2: rgb(192, 127, 127);
+    --body: rgb(95, 86, 86);
+    --brand: #00b7ff;
+    --p: rgb(161, 150, 150);
+}
+*{
+    font-family: 'Platypi';
+}
+.Anjane{
+    border-radius: 60%;
+    width: 5%;
+    margin-right: 128px;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(208, 255, 180, 0.671) !important;
+}
+nav {
+    background-color: #000000;
+}
+
+.navbar #navbarNav .nav-link.active {
+    color: rgb(1, 11, 43);
+}
+
+.navbar .nav-link:hover {
+    color: rgb(0, 105, 243);
+}
+.navbar-nav{
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: rgb(0, 0, 0);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#banner {
+    height: 100vh;
+    background:  url(https://i0.wp.com/wallpaperaccess.com/full/1261260.jpg);
+    background-size: cover;
+}
+
+/* BUTTON */
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    border-color: var(--brand);
+    color: var(--brand);
+}
+
+h1 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times;
+}
+
+#Services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.342);
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+img{
+    width: 70%;
+}
+
+h2 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#About {
+    /* height: 100vh; */
+    background: linear-gradient(to top, hsla(131, 92%, 86%, 0.781), rgba(255, 255, 255, 0.959));
+    background-size: cover;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.icon-box-img {
+    width: 40%;
+    margin: 20px;
+    align-self: center;
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    border-color: var(--bg1);
+    color: var(--bg1);
+}
+
+.btn-outline-brand:hover {
+    background-color: transparent;
+    border-color: var(--brand);
+    color: var(--brand);
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover {
+    background-color: var(--bg2);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+
+}
+
+#cta {
+    background: linear-gradient(to top, #fafafa, rgba(238, 253, 216, 0.89));
+    background-size: cover;
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* parallax effect */
+    background-attachment: fixed;
+    background-image: linear-gradient(to right hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.280));
+    min-height: 70vh;
+}
+#reviews{
+    background-color: white;
+}
+.testimonials{
+    background-color: lightpink;
+    padding: 30px;
+}
+.testimonials img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+}
+#reviews a{
+    color: blue;
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.faq-question{
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #db97e9;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.32, color 0.3s;
+}
+.faq-answer{
+    border-left: 3px solid var(--white);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: antiquewhite;
+}
+.faq-answer p{
+    margin-bottom: 0;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgb(255, 159, 234);
+}
+.faq-question:hover{
+    background-color: rgba(255, 199, 238, 0.89);
+}
+.accordion-button::after{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    content:"";
+    font-weight: 900;
+    margin-left: auto;
+}
+.accordion-button[aria-expanded="true"]::after {
+    content: "";
+}
+#faq{
+    background-color: #d7ffe957;
+}
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7fff8dc;
+}
+#footer ul.list-unstyled li a{
+    color: #ffffff;
+}
+#footer ul.list-unstyled li:hover a {
+    color: #ffc5ee;
+}
+#reviews h2, #services h2{
+    color:antiquewhite;
+}
+.btn-outline-light{
+    border-color: #F2B03B;
+    color: #F2B03B;
+}
+#footer h5{
+    color: antiquewhite;
+    margin-bottom: 15px;
+
+}
+
+a {
+    text-decoration: none;
+}
+@media only screen and (max-width:767px){
+
+    section {
+        padding: 60px 10px 60px 10px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+   /* #About {
+        width: 100%;
+        height: 380px;
+        background-size: cover;
+    }*/
+    #footer{
+        padding: 50px 20px;
+    }
+}
