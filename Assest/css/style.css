@@ -2,7 +2,7 @@
     --bg1: #2D2A2B;
     --bg2: rgb(192, 127, 127);
     --body: rgb(95, 86, 86);
-    --brand: #00b7ff;
+    --brand: #0ae452e7;
     --p: rgb(161, 150, 150);
 }
 *{
@@ -10,7 +10,7 @@
 }
 .Anjane{
     border-radius: 60%;
-    width: 5%;
+    width: 6%;
     margin-right: 128px;
 }
 .bg-body-tertiary {
@@ -150,7 +150,7 @@ h2 {
     background-color: white;
 }
 .testimonials{
-    background-color: lightpink;
+    background-color: rgba(204, 252, 212, 0.829);
     padding: 30px;
 }
 .testimonials img{
@@ -185,7 +185,7 @@ h2 {
     border-left: 3px solid var(--white);
     padding: 10px 15px;
     margin-left: 0;
-    background-color: antiquewhite;
+    background-color: rgb(215, 250, 231);
 }
 .faq-answer p{
     margin-bottom: 0;
@@ -194,10 +194,10 @@ h2 {
     box-shadow: none;
 }
 .accordion-button:not(.collapsed) {
-    background-color: rgb(255, 159, 234);
+    background-color: rgb(250, 248, 249);
 }
 .faq-question:hover{
-    background-color: rgba(255, 199, 238, 0.89);
+    background-color: rgba(53, 230, 112, 0.89);
 }
 .accordion-button::after{
     font-family: Georgia, 'Times New Roman', Times, serif;
